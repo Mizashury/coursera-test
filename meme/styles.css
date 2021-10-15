@@ -1,0 +1,42 @@
+body {
+	
+}
+
+h1{
+	color: #444685;
+	text-align: center;
+}
+
+h2{
+	color: #7c5439;
+}
+
+h3{
+	color: darkblue;
+	text-align: bold;
+}
+
+li{
+	font-style: italic;
+}
+
+.ref-footer{
+	text-decoration: none;
+	font-weight: bold;
+	color: darkred;
+}
+
+#ref3:hover{
+	color: blue;
+}
+
+footer {
+	border-top: 3px solid black;
+	color: darkred;
+}
+
+section p{
+	text-align: center;
+	margin-top: -20px;
+	color: purple;
+}
