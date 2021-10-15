@@ -30,6 +30,7 @@ footer {
 	border-top: 3px solid black;
 	color: darkred;
 	margin-top: 15px; 
+	clear: left;
 }
 
 section p{
