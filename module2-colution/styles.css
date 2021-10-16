@@ -1,7 +1,5 @@
 * {
 	box-sizing: border-box;
-	margin-right: auto;
-  	margin-left: auto;
 }
 
 h1 {
@@ -13,17 +11,14 @@ h1 {
 .row {
 	width: 100%;
 }
-
+    
 .block{
 	background-color: #00a480;
-	width: 95%;
 	height: 155px;
 	border: 1px solid black;
-	margin-right: auto;
-  	margin-left: auto;
+	margin-right: 10px;
   	margin-bottom: 30px; 
   	overflow: hidden;
-
 }
 span {
 	text-align: center;
