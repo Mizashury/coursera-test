@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin-right: auto;
+  	margin-left: auto;
 }
 
 h1 {
@@ -12,7 +14,7 @@ h1 {
 	width: 100%;
 }
 
-section{
+.block{
 	background-color: #00a480;
 	width: 95%;
 	height: 155px;
@@ -21,6 +23,7 @@ section{
   	margin-left: auto;
   	margin-bottom: 30px; 
   	overflow: hidden;
+
 }
 span {
 	text-align: center;
