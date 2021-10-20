@@ -1,0 +1,88 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* header */
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 25px;
+	border: 2px solid black;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+ 	color: black;
+ 	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;	 
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: black;
+	background-color: #fff;
+  	text-align: center;
+}
+#nav-list a:hover {
+	background: #B8C0CE;
+}
+
+#nav-list li {
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+/* end header */
+
+#content {
+	width: 95%;
+	margin: 20px auto 20px;
+}
+
+#content > div {
+	background-color: gray;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-weight: bold;
+
+}
+
+.title {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+
+#content p {
+	padding: 0 20px 20px;
+}
+
+@media (max-width: 767px) {
+	#header-nav {
+		padding: 0;
+	}
+}
